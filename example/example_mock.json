@@ -1,0 +1,16 @@
+{
+    "include": ["stdio.h", "stdlib.h"],
+    "functions" : [
+        "int fprintf(FILE *stream, const char *format, ...);| vfprintf",
+        "int dprintf(int fd, const char *format, ...);| vdprintf",
+        "int vprintf(const char *format, va_list ap);",
+        "FILE *fopen(const char *pathname, const char *mode);",
+        "int fclose(FILE *stream);",
+        " void *malloc(size_t size);",
+        "void free(void *ptr);",
+        "void *calloc(size_t nmemb, size_t size);",
+        "void *realloc(void *ptr, size_t size);",
+        "void *reallocarray(void *ptr, size_t nmemb, size_t size);",
+        "int getchar(void);"
+    ]
+}
